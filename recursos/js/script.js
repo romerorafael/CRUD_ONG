@@ -162,7 +162,7 @@ function Limpar(op){
                 col+= '<tr scope="row"'+cssAtivo+'alt="'+i+'">'
                 col+= '    <td colspan="2" header="n">'+ ong.nome +'</td>'
                 col+= '    <td colspan="3" header="s">'+ ong.slogan +'</td>'
-                col+= '    <td colspan="2" header="l">'+ ong.url +'</td>'
+                col+= '    <td colspan="2" header="l"> <a href="'+ ong.url +'"'+cssAtivo+'>'+ ong.url +'</a></td>'
                 col+= '    <td  header="a" class="text-center"><input title="Ong ativada/desativada" type="checkbox" class="ativo"'+checkAtivo+'> </td>'
                 col+= '    <td colspan="2" header="c" class="text-center"><a style="color: black" href="editar" data-toggle="modal" data-target="#modalEdicao" '+cssAtivo+'>editar</a> | <a style="color: black" href="deletar" data-toggle="modal" data-target="#modalDeleta" '+cssAtivo+' >deletar</a></td>'
                 col+= '</tr>'
